@@ -1,0 +1,20 @@
+.review-list {
+  position: relative;
+  top: 700px;
+  
+
+  img{
+    width: 60px;
+    height: 60px;  
+  }
+}
+
+.card {
+  width: 360px;
+  height: 200px;
+  background-color: $clr4;
+  margin-right: 60px;
+  p {
+    max-width: 60ch;
+  }
+}

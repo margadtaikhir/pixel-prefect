@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.6;
+}
+
+body {
+  margin: 0;
+  font-size: 14px;
+  background-color: $clr1;
+  color: white;
+  background-image: url("../images/bg-curvy-desktop.svg");
+  background-position: 0px 848px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  font-weight: normal;
+}
+
+h1 {
+  font-family: Raleway-Bold;
+  font-size: rem(40px);
+}
+
+p {
+  margin: 0 0 rem(12px);
+  font-family: OpenSans;
+  font-size: rem(20px);
+  // max-width: 60ch;
+}
